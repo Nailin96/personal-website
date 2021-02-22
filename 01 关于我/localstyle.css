@@ -1,0 +1,55 @@
+/* tables
+*****************/
+table{
+  overflow-y: auto;
+  border-collapse: collapse;
+}
+
+thead{
+  border:solid 3px;
+}
+
+th{
+  width: 200px;
+  min-width: 200px;
+  border:solid 1px;
+  padding: 5px;
+  text-align: center;
+  height:55px
+}
+
+.nextbtn_left{
+  width:100px;
+  left:1rem;
+  margin-bottom: 1px;
+  background-color: transparent;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+}
+
+tbody{
+}
+
+td{
+  width: 200px;
+  min-width: 200px;
+  border: 1px solid black;
+  padding: 5px;
+  text-align:center;
+  height:280px;
+}
+
+.imageContainer > img:hover {
+  width: 400px;
+  height: 540px;
+}
+
+.imageContainer1 > img:hover {
+  width: 400px;
+  height: 300px;
+}
+
+.imageContainer2 > img:hover {
+  width: 400px;
+  height: 480px;
+}
