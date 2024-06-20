@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+    width: 80%;
+    padding:10px 10%;
+    background: rgb(255,255,255,0.8);
+}
+.logo h1{
+    color:black;
+    font-family:Cursive;
+    letter-spacing: 5px;
+    font-size: 50px;
+    margin-left: 10px;
+    font-family:Cursive;
+}
+.nav a{
+    text-decoration: none;
+    color: #333;
+    font-size:18px;
+    margin-left: 30px;
+    font-family:Comic Sans MS;
+}
+.banner{
+    width:100%;
+    height:60vh;
+
+}
+
+.banner img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:80px;
+}
+.title h3{
+    text-align:center;
+    font-size:35px;
+    color:black;
+    letter-spacing:5px;
+    margin:0 20px 0 20px;
+}
+
+.title .line{
+    width:60px;
+    height:3px;
+    background:grey;
+}
+
+#about{
+    display:flex;
+    justify-content:space-between;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.about-img{
+    width: 30%;
+    height:240px;
+}
+
+.about-img img{
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+}
+.about-text{
+    width:65%;
+}
+.about-text p{
+    line-height:2;
+    text-indent: 2em;
+    margin: 15px 0;
+}
+
+.about-text{
+    width:65%;
+}
+.about-text p{
+    line-height:2;
+    text-indent: 2em;
+    margin: 15px 0;
+}
+
+#contact ul{
+    display:flex;
+    justify-content:space-between;
+    width:1200px;
+    margin:50px auto;
+}
+#contact ul li{
+    list-style:none;
+    width: 30%;
+}
+
+#contact ul li img{
+    display:block;
+    width:100%;
+    height:360px;
+    border-radius:10px 10px 0 0;
+    object-fit:cover;
+}
+
+#contact ul li p{
+    padding:5px;
+    margin-top:10px;
+    text-align:center;
+    font-size: 18px;
+    background:lightgrey;
+}
